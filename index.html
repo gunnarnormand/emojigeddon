@@ -1,27 +1,219 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<title>Emojigeddon</title>
+		<meta name="description" content="emojigeddon interactive article">
+		<meta name="author" content="gunnarnormand@icloud.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<!-- CSS -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>	
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/main.css">
 	</head>
 	<body>
+		<div id="lightbox"></div>
+		<div id="loader"></div>
+		<img class="big-stories" src="./assets/img/big-stories.png" alt="BuzzFeed Big Stories">
+		<header>
+			<h6>Inside</h6>
+			<h1 id="emojigeddonText">emojigeddon:</h1>
+			<p>The Fight Over The Future Of The Unicode Consortium</p>
+		</header>
+		<nav class="">
+			<img src="./assets/img/user.png" alt="user icon">
+			<span>20K users reading</span>
+			<img src="./assets/img/face.png" alt="happy face">
+			<span class="rubik">500k reactions</span>
+		</nav>
+		<img class="comment-btn" src="./assets/img/comment.png" alt="comment icon">
+		<aside>
+			<div class="discussion-nav">
+				<span class="rubik">live discussion</span>
+				<img class="exit" src="./assets/img/exit.png" alt="exit btn">
+			</div>
+			<div class="comment-block">
+				<img src="./assets/img/user1.png" alt="user photo">
+				<p class="rubik">I agree with this👇, heres some emojis wow 🌄 super pandariffic 🐼.</p>
+			</div>
+			<div class="divider"></div>
+			<div class="comment-block">
+				<img src="./assets/img/user2.png" alt="user photo">
+				<p class="rubik">Woah there 🎎 turtles 🐢 I like them 🐺 did you hear that?</p>
+			</div>
+			<div class="divider"></div>
+			<div class="comment-block">
+				<img src="./assets/img/user3.png" alt="user photo">
+				<p class="rubik">Lovely article and to all who disagree not heaaring you🔇!</p>
+			</div>
+			<div class="divider"></div>
+			<div class="comment-block">
+				<img src="./assets/img/user4.png" alt="user photo">
+				<p class="rubik">My names Jeff, 🐸🐸🐸🐸 and I approved this message.</p>
+			</div>
+		</aside>
+		<main id="main" class="stripe">
+			<section>
+				<article>
+					<p class="alegreya first-line"><span class="first-letter">t</span>here's trouble afoot inside the</p>
+					<div class="elders">
+						<img src="./assets/img/oldman.png" alt="oldman emoji">
+						<img src="./assets/img/oldman.png" alt="oldman emoji">
+						<img src="./assets/img/oldman.png" alt="oldman emoji">
+						<img src="./assets/img/oldman.png" alt="oldman emoji">
+						<img src="./assets/img/oldman.png" alt="oldman emoji">
+					</div>
+					<h6 class="alegreya-bold">Emoji Council</h6>
+					<h4 class="alegreya-bold">of Elders</h4>
+					<p class="alegreya second-line">or, at the very least, signs of a low-simmering schism that's being referred to by some of its participants - perhaps with less humor than one might expect - as...</p>
+					<div class="flame">
+						<img src="./assets/img/openmouth.png" alt="open mouth emoji">
+						<img src="./assets/img/flame.png" alt="flame emoji">
+					</div>
+					<h3 class="alegreya-bold">"Emojigeddon."</h3>
+				</article>
+				<article class="paperclip">
+					<p class="alegreya">Emails seen by BuzzFeed News reveal an emerging tension at the Unicode Consortium -the 24-year-old organization that was established to develop standards for translating alphabets into code that can be read across all computers and operating systems.</p>
+				</article>
+				<article class="paper">
+					<p class="alegreya">The series of frustrated messages show a deepening rift between those who adhere to the organization's original mission to code old and obscure and minority languages and those who are investing time and resources toward Unicode's newer and most popular character sets: emojis, a quirky periodic table of ideograms and smiley faces that cover everything from <span class="emoji-text" id="laugh">bemused laughter</span> to <span class="emoji-text" id="poo">smiling piles of poop.</span> The correspondence offers a peek behind the scenes of the peculiar and little-known organization that's unexpectedly been tasked with building what some see as <b class="alegreya-bold">the first digital universal language.</b></p>
+				</article>
+				<article class="periodic-table">
+					<img id="lightbox-img" src="./assets/img/periodictable.png" alt="periodic table of emojis">
+					<p class="alegreya">In a series of acerbic emails on a chain celebrating Unicode and emojis' mention on The Late Show With Stephen Colbert last March, legendary Unicode contributor and typographer Michael Everson railed against the consortium, suggesting that the organization's focus on emojis is <span class="emoji-text" id="discussion">hurting the work of scholars like himself.</span></p>
+					<p class="alegreya">"It's delightful that people are happy about Mr. Colbert, but I can tell you that many people are thinking that the UTC has lost the plot," he scolded.</p>
+				</article>
+				<article class="message-boxes">
+					<img src="./assets/img/small-message.png" alt="small message">
+					<span class="alegreya">emoji</span>
+					<img src="./assets/img/small-message.png" alt="small message">
+					<span class="alegreya">emoji</span>
+					<img src="./assets/img/small-message.png" alt="small message">
+					<span class="alegreya">emoji</span>
+					<img src="./assets/img/small-message.png" alt="small message">
+					<span class="alegreya">its all about emoji</span>
+				</article>
+				<article>
+					<!-- <canvas></canvas>
+					<div style="display:none;">
+  						<img id="source" src="./assets/img/emoji-bg.png" width="1366" height="768">
+					</div> -->
+				</article>
+			</section>
+		</main>
+		<main class="yellow">
+			<section class="no-margin-bottom">
+				<article class="blue-box box-1">
+					<p class="rubik">As emojis' popularity has exploded, so has their press coverage, which Unicode has embraced. In recent years the consortium has weathered and begun to resolve the backlash over a lack of <span class="emoji-text" id="diversity">diversity</span> inside emojis' charater set and</p>
+				</article>
+				<article class="grouped">
+					<img src="./assets/img/grouped.png" alt="grouped emoji">
+					<img src="./assets/img/arrow.png" alt="arrow emoji">
+				</article>
+				<article class="blue-box box-2">
+					<p class="rubik">now presides over an influx of proposals for new emojis from both invested private citizens and companies like <span class="emoji-text" id="condoms">Durex condoms.</span> Last December it publicized an Adopt a Character campaign to let people sponsor emojis (and other Unicode characters). While it might all seem like good fun, Unicode traditionalists like Everson see it as a series of distracting stunts.</p>
+				</article>
+				<article class="box">
+					<p class="rubik">A number of leadership voices inside the consortium strongly disagree. On the email chain, John Hudson - another prominent typographer - shot down the idea that the consortium is letting emojis get in the way of its legacy business, suggesting tha A number of leadership voices inside the consortium strongly disagree. On the email chain, John Hudson - another prominent typographer - shot down the idea that the consortium is letting emojis get in the way of its legacy business, suggesting that</p>
+				</article>
+				<article class="blue-box box-3">
+					<p class="rubik-black"><b>Unicode has always struggled to balance the old-school work of historical and minority scripts (dead languages) and newer, evolving language.</b></p>
+					<p class="rubik">"They are problems that have been around for longer than emoji, and would persist even if emoji encoding in Unicode had not happened...even before Emojigeddon," Hudson wrote.</p>
+				</article>
+				<article class="hudson">
+					<img src="./assets/img/hudson.png" alt="hudson photo">
+				</article>
+			</section>
+		</main>
+		<main class="stripe">
+			<section class="no-margin-bottom">
+				<article>
+					<h6 class="alegreya">Ultimately, Unicode's Emojigeddon boils down to a few essential questions:</h6>
+					<ul class="circles">
+						<li class="alegreya">Are emojis a language?</li>
+						<li class="alegreya">And if not, what exactly are they?</li>
+						<li class="alegreya">Why are their regulation and evolution overseen by a bunch of language nerds and engineers?</li>
+					</ul>
+					<p class="alegreya">Typographers, linguists, and text-encoding experts including Unicode's president generally agree that the character set does not rise to the standards of an emerging language.</p>
+				</article>
+				<article class="everson-text">
+					<p class="alegreya">"People have strategies for stringing them together, of course, and deriving greater meaning - everyone knows <span class="emoji-text" id="eggplant">eggplant</span> is an erection and people sext with the vegetables, but that <b class="alegreya-bold">does not make it a substitute for language</b>," Everson said.</p>
+				</article>
+				<article class="everson">
+					<img src="./assets/img/everson.png" alt="everson photo">
+				</article>
+			</section>
+		</main>
+		<main class="blue">
+			<section>
+				<article class="yellow-box">
+					<p class="rubik">But for others, emojis' ubiquity makes the character set a meaningful mode of expression that transcends traditional linguistic barriers - vegetable sexting included - and is quite the opposite of a dumbed-down "cartoon." Language or not, they argue, when millions of people zealously adopt a new way to communicate, it becomes important whether Everson, Unicode, or any linguist, typographer, or academic agrees.</p>
+				</article>
+				<article class="hands">
+					<img src="./assets/img/claphands.png" alt="hand clapping emojis">
+				</article>
+			</section>
+		</main>
+		<main class="stripe">
+			<section>
+				<article class="computer-box">
+					<p class="alegreya">Part of the reason for Everson's passion and frustration is the sense that ongoing encoding work is, in the internet age, <b class="alegreya-bold">akin to a human right.</b> To demonstrate, he explains a tribal alphabet used in India that, until recently, had never been encoded.</p>
+					<p class="alegreya">"Now those people who use this alphabet have the right and ability - if they have a computer and electricity - to write their names in their language. There's something powerful about that. Their rights have been met," he said. "And there are more like that. We're not finished." <span id="blink">|</span></p>
+				</article>
+			</section>
+		</main>
+		<main class="gradient">
+			<section>
+				<article class="conclusion">
+					<p class="rubik">But Davis thinks emojis' popularity can</p>
+					<p class="rubik">ultimately help save the more obscure</p>
+					<p class="rubik">work - especially Unicode's Adopt a</p>
+					<p class="rubik">Character program. "We're devoting</p>
+					<p class="rubik">the funds raised from the program to</p>
+					<p class="rubik">help flesh out support for digitally</p>
+					<p class="rubik">disadvantaged languages. And</p>
+					<p class="rubik">it's proved to be successful</p>
+					<p class="rubik">largely because of emoji."</p>
 
-		<div class="content">
-			<div class="top-angle"></div>
-			<img class="logo" src="assets/img/logo.png">
-			<h1>Hello World!</h1>
-			<p>Yep, you've got the Circus Starter project working.</p>
-			<p>Congratulations! You're ready to code.</p>
-			<code>1.1.0</code>
-			<div class="bottom-angle"></div>
-		</div>
+					<p class="rubik">Davis assured that he</p>
+					<p class="rubik">did his part. "I adopted</p>
+					<p class="rubik">the comma with my</p>
+					<p class="rubik">wife," he said before</p>
+					<p class="rubik">quickly correcting</p>
+					<p class="rubik">himself. "The</p>
+					<p class="rubik">Oxford comma,</p>
+					<p class="rubik">of course."</p>
+					<img src="./assets/img/comma.png" alt="comma">
+				</article>
+				<article class="author">
+					<p class="rubik">Charlie Warzel is a senior writer for BuzzFeed News and is based in New York. Warzel reports on and writes about the intersection of tech and culture. Contact Charlie Warzel at <a href="mailto:charlie.warzel@buzzfeed.com">charlie.warzel@buzzfeed.com</a>.</p>
+					<div class="social-wrap">
+						<div class="social">
+							<div class="fb"></div>
+							<div class="mail"></div>
+							<div class="pin"></div>
+							<div class="twit"></div>
+							<div class="tumb"></div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</main>
+		<a href="#" class="back-top">
+			<h6 class="rubik-black">return to top</h6>
+		</a>
 
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+		
+		<script src="assets/gsap-min/TweenMax.min.js"></script>
+		<script src="assets/gsap-min/utils/SplitText.min.js"></script>
+		<script src="assets/gsap-min/plugins/ScrambleTextPlugin.min.js"></script>
+		<script src="assets/gsap-min/plugins/ScrollToPlugin.min.js"></script>
+		<script src="assets/gsap-min/easing/CustomEase.min.js"></script>
+		<script src="assets/gsap-min/easing/CustomWiggle.min.js"></script>
 
 		<script src="assets/js/main.js"></script>
 	</body>

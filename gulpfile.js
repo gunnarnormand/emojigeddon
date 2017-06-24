@@ -25,7 +25,7 @@ gulp.task('sass', function () {
 gulp.task('lint', function () {
 	return gulp.src('./assets/js/**/*.js') // watch these files
 		.pipe(jshint()) // error ceck the files
-		.pipe(jshint.reporter('jshint-stylish'/*, {beep: true}*/)); // if there are errors, show them
+		//.pipe(jshint.reporter('jshint-stylish'/*, {beep: true}*/)); // if there are errors, show them
 });
 
 

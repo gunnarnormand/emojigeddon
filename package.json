@@ -1,7 +1,7 @@
 {
-  "name": "circus-starter",
+  "name": "emojigeddon",
   "version": "1.1.0",
-  "description": "A good starting point for new Circus students",
+  "description": "Interactive longform Buzzfeed Article chronicling the Unicode Consortium's internal fight over emojis.",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrissilich/circus-starter.git"
+    "url": "git+https://github.com/gunnarnormand/emojigeddon.git"
   },
-  "author": "Chris Silich",
+  "author": "Gunnar Normand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrissilich/circus-starter/issues"
+    "url": "https://github.com/gunnarnormand/emojigeddon/issues"
   },
-  "homepage": "https://github.com/chrissilich/circus-starter#readme"
+  "homepage": "https://github.com/gunnarnormand/emojigeddon#readme"
 }
